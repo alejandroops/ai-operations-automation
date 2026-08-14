@@ -119,6 +119,24 @@ Two employees were unable to access a company shared drive while working on a ti
 
 **Result:** The workflow correctly identified the issue as an IT access problem, assigned High priority, identified the 24-hour urgency, and generated an appropriate escalation recommendation.
 
+## Project Evidence
+
+The following screenshots document the implementation, automation, and testing of the workflow.
+
+### Google Apps Script — Automation
+
+![Apps Script Automation 1](screenshots/App%20Script%20Automation%20-%201.PNG)
+
+![Apps Script Automation 2](screenshots/App%20Script%20Automation%20-%202.PNG)
+
+![Apps Script Automation 3](screenshots/App%20Scrpit%20Automation%20-%203.PNG)
+
+![Apps Script Automation 4](screenshots/App%20Script%20Automation%20-%204.PNG)
+
+![Apps Script Automation 5](screenshots/App%20Script%20Automation%20-%205.PNG)
+
+Additional project documentation and source code are available in the repository.
+
 ## Security
 
 The Gemini API key is stored using **Google Apps Script Properties** rather than being hard-coded into the source code.
@@ -145,10 +163,6 @@ Potential next iterations include:
 * Confidence scoring
 * Integration with ticketing platforms
 * Human approval workflows for high-impact issues
-
-## Project Evidence
-
-The repository includes supporting documentation and screenshots demonstrating the workflow, testing, and implementation.
 
 ## Key Takeaway
 
